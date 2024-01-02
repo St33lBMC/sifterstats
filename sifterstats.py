@@ -37,7 +37,6 @@ def run_trial():
     sb_outputs = [0] * len(probabilities)
     mb_outputs = [0] * len(probabilities)
     d_outputs = [0] * len(probabilities) #vector of differences sb_outputs - mb_outputs
-
     #simulate processing input_size items in the singleblock sifter
     for i in range(input_size):
         r = rand.random()
